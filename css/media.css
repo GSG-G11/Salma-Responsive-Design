@@ -1,0 +1,48 @@
+@media (max-width: 1200px) {
+  /* your code should be written here  */
+  .header {
+    padding-top: 3rem;
+  }
+  .header-content {
+    padding: 3rem;
+  }
+  .grid {
+    margin: 10px auto;
+  }
+  .grid-content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* your code should be written here  */
+  .container {
+    display: block;
+  }
+  .top {
+    flex-direction: column-reverse;
+  }
+  .nav {
+    flex-direction: row;
+  }
+  .header {
+    padding: 2rem;
+  }
+  .grid-content-tile {
+    width: 50%;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* your code should be written here */
+  .grid-content {
+    width: 85%;
+  }
+  .grid-content-tile {
+    width: 14%;
+  }
+  .nav-link {
+    border-top: none;
+  }
+}
